@@ -1,0 +1,81 @@
+{
+  "category": "containerization",
+  "created_date": "2025-09-15T22:48:57.460303",
+  "default_ports": [
+    0,
+    1,
+    2,
+    8,
+    15,
+    80,
+    127,
+    443,
+    2375,
+    2376,
+    2377,
+    3306,
+    4789,
+    5000,
+    5432,
+    7946,
+    8080,
+    9090,
+    9100
+  ],
+  "dependencies": [
+    "containerd",
+    "runc",
+    "docker-ce-cli"
+  ],
+  "description": "Docker is a free and open-source containerization platform that enables developers to package applications and their dependencies into portable containers. Originally developed by Solomon Hykes at dotCloud, Docker revolutionized application deployment by providing OS-level virtualization. It serves as a FOSS alternative to proprietary virtualization solutions like VMware vSphere, Microsoft Hyper-V containers, or commercial container platforms, offering comparable functionality with features like image layering, container orchestration, and resource isolation.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/containerization/docker",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/containerization/docker",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.460321",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "docker",
+  "repository_url": "https://github.com/howtomgr/docker",
+  "spec_version": "2.0",
+  "subcategory": "containerization",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "containerization",
+    "orchestration",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection"
+  ],
+  "title": "Docker Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/containerization/docker"
+}
